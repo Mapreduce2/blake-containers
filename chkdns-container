@@ -1,0 +1,5 @@
+FROM centos
+MAINTAINER Blake Russo
+
+RUN yum install -y dig wget bind-utils nc ; dig -x dist.nuget.org; nslookup dist.nuget.org; wget dist.nuget.org/win-x86-commandline/latest/nuget.exe; ls -la nug*;
+
