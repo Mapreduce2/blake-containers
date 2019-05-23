@@ -1,0 +1,19 @@
+{
+    "name": "frob/greetings",
+    "description": "This is a simple hello world example.",
+    "authors": [
+        {
+            "name": "Blake-Russo",
+            "email": "Blake.Russo@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
